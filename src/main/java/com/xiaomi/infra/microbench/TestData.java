@@ -8,9 +8,13 @@ import java.util.Random;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import org.openjdk.jmh.annotations.Scope;
+import org.openjdk.jmh.annotations.State;
+
 /**
  * @author zhangduo
  */
+@State(Scope.Benchmark)
 public class TestData {
 
   public static final List<byte[]> KEYS;
