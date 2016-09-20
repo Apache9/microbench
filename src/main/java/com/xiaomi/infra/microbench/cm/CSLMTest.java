@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.xiaomi.infra.microbench;
+package com.xiaomi.infra.microbench.cm;
 
 import java.util.concurrent.ConcurrentSkipListMap;
 
